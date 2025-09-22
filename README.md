@@ -19,6 +19,11 @@ bun install
 
 # Start development server
 bun run dev
+```
+You can now access the website at http://localhost:3000.
+
+## Building
+```bash
 
 # Build for production
 bun run build
