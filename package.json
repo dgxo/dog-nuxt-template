@@ -12,13 +12,13 @@
 	"dependencies": {
 		"@nuxt/eslint": "^1.8.0",
 		"@nuxt/icon": "^2.0.0",
-		"@nuxt/ui": "3.3.0",
+		"@nuxt/ui": "4.6.1",
 		"@nuxtjs/google-fonts": "^3.2.0",
-		"eslint": "^9.33.0",
+		"eslint": "^10.2.0",
 		"nuxt": "^4.0.3",
-		"typescript": "^5.6.3",
+		"typescript": "^6.0.2",
 		"vue": "^3.5.18",
-		"vue-router": "^4.5.1"
+		"vue-router": "^5.0.4"
 	},
 	"devDependencies": {
 		"@iconify-json/material-symbols": "^1.2.30"
