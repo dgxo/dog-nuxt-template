@@ -1,3 +1,10 @@
+<script setup lang="ts">
+useHead({
+	titleTemplate: (title) =>
+		(title ? `${title} • ` : "") + `Dog's Nuxt Template`,
+});
+</script>
+
 <template>
 	<UApp :tooltip="{ delayDuration: 200 }">
 		<NuxtRouteAnnouncer />
@@ -6,10 +13,3 @@
 		</NuxtLayout>
 	</UApp>
 </template>
-
-<script setup lang="ts">
-useHead({
-	titleTemplate: (title) =>
-		(title ? `${title} • ` : "") + `Dog's Nuxt Template`,
-});
-</script>
